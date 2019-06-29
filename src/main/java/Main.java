@@ -23,9 +23,9 @@ public class Main {
 
         int[] array = {1, -5, 0, 3, -7, 9};
 
-        ArrayHandler.posSum(array);
+        System.out.println(ArrayHandler.posSum(array));
 
-        ArrayHandler.average(array);
+        System.out.println(ArrayHandler.average(array));
 
         List<Integer> list = new ArrayList<>();
         list.add(3);

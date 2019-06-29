@@ -10,17 +10,17 @@ public class ArrayHandler {
         System.out.println("Sorted in revers order array: " + Arrays.toString(arr));
     }
 
-    public static void posSum(int[] array) {
+    public static String posSum(int[] array) {
         int sum = 0;
         for (int i : array) {
             if (i > 0) {
                 sum += i;
             }
         }
-        System.out.println("The sum of all positive numbers in array " + Arrays.toString(array) + " = " + sum);
+        return "The sum of all positive numbers in array " + Arrays.toString(array) + " = " + sum;
     }
 
-    public static void average(int[] array) {
+    public static String average(int[] array) {
         int sum = 0;
         for (int i : array) {
             sum += i;
@@ -38,6 +38,6 @@ public class ArrayHandler {
             }
             b.append(", ");
         }
-        System.out.println("array" + b.toString() + " -> avg = " + average);
+        return "array" + b.toString() + " -> avg = " + average;
     }
 }
